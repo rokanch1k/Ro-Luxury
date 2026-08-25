@@ -1,1 +1,7 @@
-
+local BaseUrl = "https://raw.githubusercontent.com/rokanch1k/RoLuxury/refs/heads/main/"
+if game.PlaceId ~= 6516141723 then
+    loadstring(game:HttpGet(BaseUrl .. "Ro-Luxury.luau"))()
+else
+    print("Ro-Luxury supported only in Doors")
+    print("made by @rokanchik")
+end
